@@ -31,7 +31,7 @@ package kt.test.com.learnkt.base.oop
  *
  *
  */
-class OOP constructor(name:String)  {
+open class OOP constructor(name:String)  {
 
     private var name:String = ""
     private var password:String = ""
@@ -49,6 +49,11 @@ class OOP constructor(name:String)  {
      */
     constructor(name: String,password:String):this(name) {
         this.password = password
+    }
+    
+    
+    public fun test(x: Any): Unit {
+
     }
 
 
