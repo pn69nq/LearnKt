@@ -44,15 +44,19 @@
     子类
     class child(name:String):parent(name){
         
-        init{
-            
-        }
         
     }
 ```
     
-## 
-
+### 2.4 数据类(pojo) 
+```
+        data class name(val date: Date, val temperature: Float, val details: String)
+        复制一个数据类
+        var name1 = name(Date(),27.5f,"good")
+        var name2 = name1.copy(temperature = 30f)
+        
+```
+    
 # 线程
 
 # io 
