@@ -4,9 +4,27 @@
 
 
 
-### 变量
+### 1.1变量
 
-### 权限
+### 1.2权限
+
+
+### 1.3 流程控制
+```
+    for(item in collection){
+        
+     }
+     
+    for (i in 6 downTo 0 step 2) {
+        println(i)
+    }
+    
+    
+```
+   参考[contorl-flow](https://kotlinlang.org/docs/reference/control-flow.html)
+    
+
+
 
 
 # 2、oop
